@@ -1,0 +1,25 @@
+**Overview**
+To create a wordcloud using Cumulus, simply type `!wordcloud` followed by any combination of colors and fonts. You can select as many colors as you'd like, but only one font is allowed per wordcloud.
+
+**Colors**
+%s
+
+**Fonts**
+%s
+
+**Examples**
+`!wordcloud`
+*Generates a wordcloud with a random text color and a random font.*
+
+`!wordcloud red`
+*Generates a wordcloud with red text and a random font.*
+
+`!wordcloud blue fancy`
+*Generates a wordcloud with blue text and a font from the fancy category.*
+
+`!wordcloud clean yellow orange`
+*Generates a wordcloud with yellow and orange text and a font from the clean category.*
+
+**Discussion**
+Questions, concerns, invitations to Sunday brunch? Join the Cumulus server!
+https://discord.gg/Td7dyVC
