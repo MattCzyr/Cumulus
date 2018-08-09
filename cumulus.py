@@ -33,6 +33,8 @@ def clean_words(text):
     clean = to_words(text)
     for boring in boringwords:
         clean[:] = [word for word in clean if word != boring]
+        clean = [x for x in clean if ':' not in x]
+        clean = [x for x in clean if '@' not in x]
     return clean
 
 

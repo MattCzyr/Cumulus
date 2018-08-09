@@ -5,6 +5,9 @@ ehthumbs.db
 # Idea
 .idea/
 
+# VS Code
+.vscode
+
 # Folder config file
 Desktop.ini
 
